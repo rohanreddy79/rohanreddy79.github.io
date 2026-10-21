@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rohan Reddy Jakkam — Software Engineer, AI systems</title>
+  <meta name="description" content="Software engineer building AI systems from the math to the metal: training loops, retrieval, agents, inference serving, consensus and gateways. Ten open-source systems, every number reproducible.">
+  <link rel="canonical" href="https://rohanreddy79.github.io/">
+  <meta name="theme-color" content="#0a0a0c">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Rohan Reddy Jakkam — Software Engineer, AI systems">
+  <meta property="og:description" content="Training loops, retrieval, agents, inference serving, consensus and gateways, written from scratch and measured on real hardware.">
+  <meta property="og:url" content="https://rohanreddy79.github.io/">
+  <meta property="og:image" content="https://rohanreddy79.github.io/assets/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Rohan Reddy Jakkam — Software Engineer, AI systems">
+  <meta name="twitter:description" content="Ten open-source AI and systems projects, built from scratch, tested in CI, benchmarked with reproducible commands.">
+  <meta name="twitter:image" content="https://rohanreddy79.github.io/assets/og.png">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="site.webmanifest">
+  <script>try{if(localStorage.getItem("theme")==="light")document.documentElement.setAttribute("data-theme","light")}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Person","name":"Rohan Reddy Jakkam","jobTitle":"Software Engineer","worksFor":{"@type":"Organization","name":"UF Health"},"alumniOf":[{"@type":"CollegeOrUniversity","name":"University of Florida"},{"@type":"CollegeOrUniversity","name":"Manipal University"}],"url":"https://rohanreddy79.github.io/","sameAs":["https://github.com/rohanreddy79","https://www.linkedin.com/in/jakkam-rohan-reddy-069a2a193/"],"email":"mailto:jakkamrohan79@gmail.com","knowsAbout":["Machine learning","Large language models","Retrieval-augmented generation","Distributed systems","Go","Python","TypeScript"]}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#work">Skip to the work</a>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="nav">
+    <div class="container">
+      <a class="brand" href="#top" aria-label="Rohan Reddy Jakkam, home">
+        <span class="mark" aria-hidden="true">R</span>
+        <span class="name">Rohan Reddy Jakkam</span>
+      </a>
+      <nav class="nav-links" aria-label="Sections">
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#approach">Approach</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="icon-btn" href="https://github.com/rohanreddy79" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.6-1.4-1.4-1.8-1.4-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.9 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"/></svg>
+        </a>
+        <button class="icon-btn" id="theme" aria-label="Toggle light and dark theme">
+          <svg id="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+          <svg id="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4m11.4-11.4 1.4-1.4"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true"><div class="hero-grid"></div><div class="hero-orb"></div><div class="hero-glow"></div></div>
+      <div class="container">
+        <div class="hero-inner">
+          <div class="hero-text">
+        <span class="status reveal"><span class="dot" aria-hidden="true"></span>Available for the right opportunity · Gainesville, Florida</span>
+        <h1 id="hero-title" class="reveal" data-d="80">I build AI systems from the <em>math</em> to the <em>metal</em>.</h1>
+        <p class="lede reveal" data-d="160">Software engineer at UF Health. I write the pieces most teams import — <strong>training loops, retrieval, agents, inference serving, consensus, gateways</strong> — from scratch, test them in CI, and measure them on real hardware. Ten open-source systems below. Every number comes with the command that produced it.</p>
+        <div class="hero-cta reveal" data-d="240">
+          <a class="btn btn-primary" href="#work">See the work <svg class="down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14m-6-6 6 6 6-6"/></svg></a>
+          <a class="btn" href="#contact">Get in touch</a>
+          <div class="hero-links">
+            <a class="icon-btn" href="https://www.linkedin.com/in/jakkam-rohan-reddy-069a2a193/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.4 2H3.6A1.6 1.6 0 0 0 2 3.6v16.8A1.6 1.6 0 0 0 3.6 22h16.8a1.6 1.6 0 0 0 1.6-1.6V3.6A1.6 1.6 0 0 0 20.4 2zM8 19H5V9h3zM6.5 7.7a1.8 1.8 0 1 1 0-3.5 1.8 1.8 0 0 1 0 3.5zM19 19h-3v-4.9c0-1.2 0-2.7-1.6-2.7s-1.9 1.3-1.9 2.6V19h-3V9h2.9v1.4a3.2 3.2 0 0 1 2.9-1.6c3 0 3.6 2 3.6 4.6z"/></svg></a>
+          </div>
+        </div>
+          </div>
+          <figure class="hero-portrait reveal" data-d="200">
+            <img src="assets/rohan.jpg" alt="Rohan Reddy Jakkam" width="800" height="800" loading="eager" fetchpriority="high" decoding="async">
+            <figcaption><span class="dot" aria-hidden="true"></span>Rohan · Gainesville, FL</figcaption>
+          </figure>
+        </div>
+        <dl class="stats reveal" data-d="320">
+          <div class="stat"><dt class="label" style="order:2">open-source systems, written from scratch</dt><dd class="num" style="order:1;margin:0" data-to="10">0</dd></div>
+          <div class="stat"><dt class="label" style="order:2">tests passing in CI across the ten repos</dt><dd class="num" style="order:1;margin:0" data-to="812">0</dd></div>
+          <div class="stat"><dt class="label" style="order:2">CI green, main branch, every repository</dt><dd class="num" style="order:1;margin:0"><span data-to="100" data-suffix="%">0%</span></dd></div>
+          <div class="stat"><dt class="label" style="order:2">fabricated numbers: each figure ships with its command</dt><dd class="num" style="order:1;margin:0">0</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>PyTorch</span><span>Go</span><span>TypeScript</span><span>Python</span><span>Raft consensus</span><span>HNSW</span><span>Retrieval-augmented generation</span><span>LLM agents</span><span>Evals</span><span>Model Context Protocol</span><span>FastAPI</span><span>AWS</span><span>Kubernetes</span><span>Terraform</span><span>PostgreSQL</span><span>Kafka</span><span>Docker</span><span>React</span>
+        <span>PyTorch</span><span>Go</span><span>TypeScript</span><span>Python</span><span>Raft consensus</span><span>HNSW</span><span>Retrieval-augmented generation</span><span>LLM agents</span><span>Evals</span><span>Model Context Protocol</span><span>FastAPI</span><span>AWS</span><span>Kubernetes</span><span>Terraform</span><span>PostgreSQL</span><span>Kafka</span><span>Docker</span><span>React</span>
+      </div>
+    </div>
+
+    <section class="section" id="work" aria-labelledby="work-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow reveal">Selected work</span>
+            <h2 id="work-title" class="h2 reveal" data-d="60">Ten systems, <em>written from scratch</em>, measured on real hardware.</h2>
+          </div>
+          <p class="lede reveal" data-d="120">Each repository is small enough to read in an afternoon and complete enough to run: a test suite, CI, a benchmark table with the command that produced it, and a roadmap that says what is still missing. All measured on an 8 GB laptop with no GPU.</p>
+        </div>
+
+        <div class="bento">
+          <article class="card span-7 reveal">
+            <div class="card-top"><span class="kicker">Deep learning · from scratch</span><span class="lang"><i style="--c:#ee4c2c"></i>PyTorch</span></div>
+            <h3><a class="stretched" href="https://github.com/rohanreddy79/tinygpt" target="_blank" rel="noopener">tinygpt</a><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></h3>
+            <p>A GPT trained end to end on a laptop CPU: a byte-level BPE tokenizer written from the merge rule, explicit causal attention with a tested fused path, and KV-cache generation that is proven identical to recomputation.</p>
+            <svg class="viz" viewBox="0 0 320 96" role="img" aria-label="Validation loss falling from 6.24 to 2.86 over 3000 training steps">
+              <defs><linearGradient id="g1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="currentColor" stop-opacity=".35"/><stop offset="1" stop-color="currentColor" stop-opacity="0"/></linearGradient></defs>
+              <g class="accent"><path d="M10,10.1 L30,60.3 L50,64 L70,67.3 L90,69.6 L110,72.1 L130,74.4 L150,75.2 L170,76.5 L190,77.6 L210,77.2 L230,77.9 L250,78 L270,79 L290,78.5 L310,78.8 L310,92 L10,92 Z" fill="url(#g1)"/><path d="M10,10.1 L30,60.3 L50,64 L70,67.3 L90,69.6 L110,72.1 L130,74.4 L150,75.2 L170,76.5 L190,77.6 L210,77.2 L230,77.9 L250,78 L270,79 L290,78.5 L310,78.8" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="310" cy="78.8" r="3.5" fill="currentColor"/></g>
+              <text x="12" y="22">val loss 6.24</text><text x="246" y="72">2.86 at step 3000</text>
+            </svg>
+            <div class="metric"><span class="big">147<small>s</small></span><span class="cap">CPU training time to 2.86 validation loss; KV cache decodes 2.8× faster than recompute</span></div>
+            <div class="tags"><span>BPE tokenizer</span><span>transformer</span><span>KV cache</span><span>64 tests</span></div>
+          </article>
+
+          <article class="card span-5 reveal" data-d="60">
+            <div class="card-top"><span class="kicker">Distributed systems</span><span class="lang"><i style="--c:#00add8"></i>Go</span></div>
+            <h3><a class="stretched" href="https://github.com/rohanreddy79/raftkv" target="_blank" rel="noopener">raftkv</a><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></h3>
+            <p>Raft from the paper's Figure 2 and a linearizable key-value store with ReadIndex reads and exactly-once client sessions, tested by an adversarial network simulator under the race detector.</p>
+            <svg class="viz" viewBox="0 0 320 96" role="img" aria-label="Three-node cluster: the leader is killed and a new leader is elected in 327 milliseconds">
+              <g stroke="currentColor" stroke-width="1.2" fill="none" opacity=".55"><path d="M70,48 L160,48"/><path d="M160,48 L250,48"/><path d="M70,48 C110,8 210,8 250,48"/></g>
+              <g><circle cx="70" cy="48" r="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"/><path d="M62,40 l16,16 M78,40 l-16,16" stroke="currentColor" stroke-width="1.8"/><text x="70" y="82" text-anchor="middle">n1 · killed</text></g>
+              <g class="accent"><circle cx="160" cy="48" r="16" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="160" cy="48" r="5" fill="currentColor"/><text x="160" y="82" text-anchor="middle" fill="currentColor">n2 · leader</text></g>
+              <g><circle cx="250" cy="48" r="16" fill="none" stroke="currentColor" stroke-width="1.5"/><text x="250" y="82" text-anchor="middle">n3 · follower</text></g>
+            </svg>
+            <div class="metric"><span class="big">327<small>ms</small></span><span class="cap">median leader failover after kill -9, measured over five trials with fsync on</span></div>
+            <div class="tags"><span>leader election</span><span>log replication</span><span>ReadIndex</span><span>fault injection</span></div>
+          </article>
+
+          <article class="card span-5 reveal">
+            <div class="card-top"><span class="kicker">AI infrastructure</span><span class="lang"><i style="--c:#00add8"></i>Go</span></div>
+            <h3><a class="stretched" href="https://github.com/rohanreddy79/llm-gateway" target="_blank" rel="noopener">llm-gateway</a><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></h3>
+            <p>An OpenAI-compatible gateway in front of OpenAI and Anthropic: virtual keys, per-key rate limits, retries with jitter, provider fallback, circuit breakers, a deterministic-request cache, streaming translation and cost accounting.</p>
+            <svg class="viz" viewBox="0 0 320 96" role="img" aria-label="Requests per second through the gateway at concurrency 1, 8, 32 and 64: 14,450; 53,663; 65,895; 64,934">
+              <g class="accent" fill="currentColor"><rect x="14" y="60.4" width="56" height="16" rx="3" opacity=".45"/><rect x="92" y="17.8" width="56" height="58.6" rx="3" opacity=".7"/><rect x="170" y="4.5" width="56" height="71.9" rx="3"/><rect x="248" y="5.5" width="56" height="70.9" rx="3" opacity=".85"/></g>
+              <text x="42" y="90" text-anchor="middle">c=1 · 14k</text><text x="120" y="90" text-anchor="middle">c=8 · 54k</text><text x="198" y="90" text-anchor="middle">c=32 · 66k</text><text x="276" y="90" text-anchor="middle">c=64 · 65k</text>
+            </svg>
+            <div class="metric"><span class="big">65<small>k req/s</small></span><span class="cap">through the full middleware chain at p99 1.7 ms; a 10%-failing upstream served 3,000 requests with zero client errors</span></div>
+            <div class="tags"><span>rate limiting</span><span>circuit breaker</span><span>SSE streaming</span><span>87 tests</span></div>
+          </article>
+
+          <article class="card span-7 reveal" data-d="60">
+            <div class="card-top"><span class="kicker">Retrieval</span><span class="lang"><i style="--c:#3572a5"></i>Python</span></div>
+            <h3><a class="stretched" href="https://github.com/rohanreddy79/ragkit" target="_blank" rel="noopener">ragkit</a><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></h3>
+            <p>Hybrid retrieval-augmented generation in one SQLite file: a from-scratch BM25, a deterministic hashing embedder, reciprocal-rank fusion, reranking, cited answers, a CLI, an API, and an eval loop that judges every change against a measured noise floor.</p>
+            <svg class="viz" viewBox="0 0 320 96" role="img" aria-label="recall at 1 on the 45-question eval: BM25 0.867, dense 0.833, hybrid 0.856">
+              <g fill="currentColor"><rect x="14" y="26" width="70" height="14" rx="3" class="accent" style="fill:var(--accent)"/><rect x="14" y="50" width="70" height="14" rx="3" opacity=".55"/><rect x="14" y="74" width="70" height="14" rx="3" opacity=".8"/></g>
+              <g><rect x="90" y="26" width="203" height="14" rx="3" fill="currentColor" opacity=".12"/><rect x="90" y="26" width="176" height="14" rx="3" class="accent" fill="currentColor"/><rect x="90" y="50" width="203" height="14" rx="3" fill="currentColor" opacity=".12"/><rect x="90" y="50" width="169" height="14" rx="3" fill="currentColor" opacity=".55"/><rect x="90" y="74" width="203" height="14" rx="3" fill="currentColor" opacity=".12"/><rect x="90" y="74" width="174" height="14" rx="3" fill="currentColor" opacity=".8"/></g>
+              <text x="18" y="36" style="fill:var(--accent-ink)">bm25</text><text x="18" y="60" style="fill:var(--bg)">dense</text><text x="18" y="84" style="fill:var(--bg)">hybrid</text>
+              <text x="298" y="36">.867</text><text x="298" y="60">.833</text><text x="298" y="84">.856</text>
+              <text x="90" y="16">recall@1 · 45 questions · 31 documents</text>
+            </svg>
+            <div class="metric"><span class="big">0.98</span><span class="cap">recall@3 and 0.94 MRR on the bundled eval; hash-seed noise floor ±0.025 measured and reported</span></div>
+            <div class="tags"><span>BM25</span><span>RRF</span><span>SQLite</span><span>FastAPI</span><span>55 tests</span></div>
+          </article>
+
+          <article class="card span-4 reveal">
+            <div class="card-top"><span class="kicker">Agents</span><span class="lang"><i style="--c:#3572a5"></i>Python</span></div>
+            <h3><a class="stretched" href="https://github.com/rohanreddy79/agentloop" target="_blank" rel="noopener">agentloop</a><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></h3>
+            <p>The core of an agent framework in 1,400 lines: typed tools with generated JSON schemas, a budgeted loop, parallel tool calls, validated structured output, JSONL traces and a Claude provider tested against a mocked SDK.</p>
+            <svg class="viz" viewBox="0 0 320 72" role="img" aria-label="Eight tools of 50 milliseconds each: 51 ms in parallel versus 413 ms serial">
+              <rect x="14" y="14" width="36" height="14" rx="3" class="accent" fill="currentColor"/><text x="58" y="25">parallel · 51 ms</text>
+              <rect x="14" y="42" width="292" height="14" rx="3" fill="currentColor" opacity=".3"/><text x="18" y="53" style="fill:var(--text)">serial · 413 ms</text>
+            </svg>
+            <div class="metric"><span class="big">8×</span><span class="cap">faster tool execution with asyncio fan-out; errors return to the model as data, not exceptions</span></div>
+            <div class="tags"><span>tool use</span><span>structured output</span><span>153 tests</span></div>
+          </article>
+
+          <article class="card span-4 reveal" data-d="60">
+            <div class="card-top"><span class="kicker">Evaluation</span><span class="lang"><i style="--c:#3572a5"></i>Python</span></div>
+            <h3><a class="stretched" href="https://github.com/rohanreddy79/evalkit" target="_blank" rel="noopener">evalkit</a><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></h3>
+            <p>An eval harness for LLM apps: declarative tasks, nine metrics plus LLM-as-judge, a response cache, bootstrap confidence intervals and a paired comparison that finds changes overlapping intervals would hide.</p>
+            <svg class="viz" viewBox="0 0 320 72" role="img" aria-label="Paired delta of plus 6.5 points with a 95 percent confidence interval from plus 1.0 to plus 12.0, excluding zero">
+              <line x1="14" y1="40" x2="306" y2="40" stroke="currentColor" opacity=".3"/><line x1="78" y1="22" x2="78" y2="58" stroke="currentColor" stroke-dasharray="3 3"/><text x="72" y="68">0</text>
+              <g class="accent" stroke="currentColor"><line x1="94" y1="40" x2="270" y2="40" stroke-width="3"/><line x1="94" y1="32" x2="94" y2="48" stroke-width="2"/><line x1="270" y1="32" x2="270" y2="48" stroke-width="2"/><circle cx="182" cy="40" r="6" fill="currentColor" stroke="none"/></g>
+              <text x="86" y="16">+1.0</text><text x="166" y="16" style="fill:var(--text)">Δ +6.5 pts</text><text x="256" y="16">+12.0</text>
+            </svg>
+            <div class="metric"><span class="big">p=.035</span><span class="cap">paired bootstrap and sign test on 200 items; the naive comparison called the same change "no evidence"</span></div>
+            <div class="tags"><span>LLM-as-judge</span><span>bootstrap CI</span><span>63 tests</span></div>
+          </article>
+
+          <article class="card span-4 reveal" data-d="120">
+            <div class="card-top"><span class="kicker">Model serving</span><span class="lang"><i style="--c:#3572a5"></i>Python</span></div>
+            <h3><a class="stretched" href="https://github.com/rohanreddy79/batchserve" target="_blank" rel="noopener">batchserve</a><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></h3>
+            <p>An inference server with dynamic batching, bounded queues that answer 503 with Retry-After, graceful drain, readiness probes, Prometheus metrics and a Docker image, with a load test that measures the gain.</p>
+            <svg class="viz" viewBox="0 0 320 72" role="img" aria-label="Throughput 94 requests per second without batching versus 1,641 with batching">
+              <rect x="14" y="14" width="17" height="14" rx="3" fill="currentColor" opacity=".35"/><text x="38" y="25">batching off · 94 req/s · p50 648 ms</text>
+              <rect x="14" y="42" width="292" height="14" rx="3" class="accent" fill="currentColor"/><text x="18" y="53" style="fill:var(--accent-ink)">batching on · 1,641 req/s · p50 36 ms</text>
+            </svg>
+            <div class="metric"><span class="big">17×</span><span class="cap">throughput from size-or-time batching on an accelerator-like model; 96.7% classifier accuracy on held-out templates</span></div>
+            <div class="tags"><span>asyncio</span><span>backpressure</span><span>Prometheus</span><span>51 tests</span></div>
+          </article>
+
+          <article class="card span-4 reveal">
+            <div class="card-top"><span class="kicker">Autograd</span><span class="lang"><i style="--c:#3572a5"></i>NumPy</span></div>
+            <h3><a class="stretched" href="https://github.com/rohanreddy79/nanograd" target="_blank" rel="noopener">nanograd</a><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></h3>
+            <p>A PyTorch-shaped tensor library with reverse-mode autodiff over broadcasting NumPy ops, Conv2d, LayerNorm, Adam and schedulers. Every gradient of all 30 ops is checked against finite differences.</p>
+            <svg class="viz" viewBox="0 0 320 72" role="img" aria-label="75 gradient checks, all passing">
+              <g class="good" fill="currentColor"><rect x="14" y="10" width="10" height="10" rx="2"/><rect x="30" y="10" width="10" height="10" rx="2"/><rect x="46" y="10" width="10" height="10" rx="2"/><rect x="62" y="10" width="10" height="10" rx="2"/><rect x="78" y="10" width="10" height="10" rx="2"/><rect x="94" y="10" width="10" height="10" rx="2"/><rect x="110" y="10" width="10" height="10" rx="2"/><rect x="126" y="10" width="10" height="10" rx="2"/><rect x="142" y="10" width="10" height="10" rx="2"/><rect x="158" y="10" width="10" height="10" rx="2"/><rect x="174" y="10" width="10" height="10" rx="2"/><rect x="190" y="10" width="10" height="10" rx="2"/><rect x="206" y="10" width="10" height="10" rx="2"/><rect x="222" y="10" width="10" height="10" rx="2"/><rect x="238" y="10" width="10" height="10" rx="2"/><rect x="14" y="26" width="10" height="10" rx="2"/><rect x="30" y="26" width="10" height="10" rx="2"/><rect x="46" y="26" width="10" height="10" rx="2"/><rect x="62" y="26" width="10" height="10" rx="2"/><rect x="78" y="26" width="10" height="10" rx="2"/><rect x="94" y="26" width="10" height="10" rx="2"/><rect x="110" y="26" width="10" height="10" rx="2"/><rect x="126" y="26" width="10" height="10" rx="2"/><rect x="142" y="26" width="10" height="10" rx="2"/><rect x="158" y="26" width="10" height="10" rx="2"/><rect x="174" y="26" width="10" height="10" rx="2"/><rect x="190" y="26" width="10" height="10" rx="2"/><rect x="206" y="26" width="10" height="10" rx="2"/><rect x="222" y="26" width="10" height="10" rx="2"/><rect x="238" y="26" width="10" height="10" rx="2"/><rect x="14" y="42" width="10" height="10" rx="2"/><rect x="30" y="42" width="10" height="10" rx="2"/><rect x="46" y="42" width="10" height="10" rx="2"/><rect x="62" y="42" width="10" height="10" rx="2"/><rect x="78" y="42" width="10" height="10" rx="2"/><rect x="94" y="42" width="10" height="10" rx="2"/><rect x="110" y="42" width="10" height="10" rx="2"/><rect x="126" y="42" width="10" height="10" rx="2"/><rect x="142" y="42" width="10" height="10" rx="2"/><rect x="158" y="42" width="10" height="10" rx="2"/><rect x="174" y="42" width="10" height="10" rx="2"/><rect x="190" y="42" width="10" height="10" rx="2"/><rect x="206" y="42" width="10" height="10" rx="2"/><rect x="222" y="42" width="10" height="10" rx="2"/><rect x="238" y="42" width="10" height="10" rx="2"/><rect x="14" y="58" width="10" height="10" rx="2"/><rect x="30" y="58" width="10" height="10" rx="2"/><rect x="46" y="58" width="10" height="10" rx="2"/><rect x="62" y="58" width="10" height="10" rx="2"/><rect x="78" y="58" width="10" height="10" rx="2"/><rect x="94" y="58" width="10" height="10" rx="2"/><rect x="110" y="58" width="10" height="10" rx="2"/><rect x="126" y="58" width="10" height="10" rx="2"/><rect x="142" y="58" width="10" height="10" rx="2"/><rect x="158" y="58" width="10" height="10" rx="2"/><rect x="174" y="58" width="10" height="10" rx="2"/><rect x="190" y="58" width="10" height="10" rx="2"/><rect x="206" y="58" width="10" height="10" rx="2"/><rect x="222" y="58" width="10" height="10" rx="2"/><rect x="238" y="58" width="10" height="10" rx="2"/></g>
+              <text x="258" y="20">60 of 75</text><text x="258" y="36">gradient</text><text x="258" y="52">checks</text><text x="258" y="68">shown</text>
+            </svg>
+            <div class="metric"><span class="big">98.3<small>%</small></span><span class="cap">CNN accuracy on 8×8 digits after 1.7 s of CPU training; MLP reaches 96.9%</span></div>
+            <div class="tags"><span>backprop</span><span>im2col</span><span>156 tests</span></div>
+          </article>
+
+          <article class="card span-4 reveal" data-d="60">
+            <div class="card-top"><span class="kicker">Vector search</span><span class="lang"><i style="--c:#00add8"></i>Go</span></div>
+            <h3><a class="stretched" href="https://github.com/rohanreddy79/hnswgo" target="_blank" rel="noopener">hnswgo</a><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></h3>
+            <p>The index under every vector database, from the paper, in dependency-free Go: layered graph, beam search, heuristic neighbour selection, tombstone deletes, CRC-checked persistence and one allocation per query.</p>
+            <svg class="viz" viewBox="0 0 320 72" role="img" aria-label="recall at 10 by search beam width: ef 16 0.931, ef 32 0.988, ef 64 0.999, ef 128 1.000">
+              <g class="accent" fill="currentColor"><rect x="14" y="20.6" width="60" height="33.4" rx="3" opacity=".5"/><rect x="92" y="17.3" width="60" height="36.7" rx="3" opacity=".7"/><rect x="170" y="16.6" width="60" height="37.4" rx="3" opacity=".9"/><rect x="248" y="16.5" width="60" height="37.5" rx="3"/></g>
+              <text x="44" y="66" text-anchor="middle">ef16 · .931</text><text x="122" y="66" text-anchor="middle">ef32 · .988</text><text x="200" y="66" text-anchor="middle">ef64 · .999</text><text x="278" y="66" text-anchor="middle">ef128 · 1.0</text>
+              <text x="14" y="12">recall@10 vs ef · 20k × 64 clustered vectors</text>
+            </svg>
+            <div class="metric"><span class="big">35<small>k QPS</small></span><span class="cap">single-threaded at recall 0.999, 12× brute force; the paper's heuristic selection lifts recall from 0.889 to 0.999 at the same cost</span></div>
+            <div class="tags"><span>ANN</span><span>persistence</span><span>HTTP API</span></div>
+          </article>
+
+          <article class="card span-4 reveal" data-d="120">
+            <div class="card-top"><span class="kicker">AI tooling</span><span class="lang"><i style="--c:#3178c6"></i>TypeScript</span></div>
+            <h3><a class="stretched" href="https://github.com/rohanreddy79/mcp-toolbox" target="_blank" rel="noopener">mcp-toolbox</a><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></h3>
+            <p>A sandboxed Model Context Protocol server: read-only SQLite through a token-level SQL gate, an allow-listed filesystem with realpath containment, and allow-listed HTTP fetch, over stdio and Streamable HTTP, with zero native dependencies.</p>
+            <svg class="viz" viewBox="0 0 320 72" role="img" aria-label="18 sandbox checks, each mapped to a test">
+              <g class="good" fill="currentColor"><circle cx="20" cy="26" r="6"/><circle cx="38" cy="26" r="6"/><circle cx="56" cy="26" r="6"/><circle cx="74" cy="26" r="6"/><circle cx="92" cy="26" r="6"/><circle cx="110" cy="26" r="6"/><circle cx="128" cy="26" r="6"/><circle cx="146" cy="26" r="6"/><circle cx="164" cy="26" r="6"/><circle cx="182" cy="26" r="6"/><circle cx="200" cy="26" r="6"/><circle cx="218" cy="26" r="6"/><circle cx="236" cy="26" r="6"/><circle cx="254" cy="26" r="6"/><circle cx="272" cy="26" r="6"/><circle cx="290" cy="26" r="6"/><circle cx="20" cy="48" r="6"/><circle cx="38" cy="48" r="6"/></g>
+              <text x="56" y="52">18 of 18 guards covered by a test · path escapes, SQL mutation, host allowlist, size caps</text>
+            </svg>
+            <div class="metric"><span class="big">0.06<small>ms</small></span><span class="cap">p50 per SQLite tool call in-process; 100 offline tests drive the built CLI through the SDK client</span></div>
+            <div class="tags"><span>MCP</span><span>node:sqlite</span><span>security</span></div>
+          </article>
+        </div>
+        <div class="more reveal"><a class="btn" href="https://github.com/rohanreddy79?tab=repositories" target="_blank" rel="noopener">All repositories on GitHub <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a></div>
+      </div>
+    </section>
+
+    <section class="section" id="experience" aria-labelledby="exp-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow reveal">Experience</span>
+            <h2 id="exp-title" class="h2 reveal" data-d="60">Production systems in <em>regulated</em>, high-stakes environments.</h2>
+          </div>
+          <p class="lede reveal" data-d="120">From an IRB-governed research platform to a zero-to-one video engine to enterprise ad tech: scoping ambiguous problems with stakeholders, owning architecture through rollout, and handing off systems that keep running.</p>
+        </div>
+        <div class="timeline">
+          <div class="job reveal">
+            <div><div class="when">Jan 2026 — present · Gainesville, FL</div><div class="who">UF Health</div><div class="role">Software Engineer</div></div>
+            <ul>
+              <li>Embedded with <strong>100+ NIH-funded researchers</strong>; scoped requirements directly with stakeholders and shipped an IRB-regulated full-stack data platform (TypeScript, React, Python) that cut manual data retrieval and analysis time 40%.</li>
+              <li>Owned discovery, architecture, development, rollout and operations on AWS, maintaining <strong>99.9% uptime</strong> for high-concurrency REST APIs serving epidemiological data.</li>
+              <li>Built interactive visualisation over <strong>10M+ rows</strong> of multidimensional healthcare data under IRB and data-governance constraints; stakeholders make decisions 30% faster.</li>
+              <li>Demoed the platform to NIAAA (NIH) program leadership; wrote the deployment and operations documentation and handed off to non-technical maintainers. Query performance up 35% through indexing and schema redesign; CI/CD automation raised release speed 25%.</li>
+            </ul>
+          </div>
+          <div class="job reveal">
+            <div><div class="when">Oct 2025 — Jan 2026</div><div class="who">FilmTrends</div><div class="role">Founding Engineer</div></div>
+            <ul>
+              <li>Built the product from zero with no specification: a serverless video-processing engine on AWS Lambda analysing <strong>10,000+ social accounts in parallel</strong>, cutting latency 90% (5 minutes to 30 seconds).</li>
+              <li>Engineered and evaluated an ML viral-prediction engine over 50+ video features at <strong>78% accuracy</strong>, iterating directly with early creator partners.</li>
+              <li>Deployed infrastructure with Terraform, CloudFormation and CI/CD at 99.9% reliability; shipped a Next.js 14 app with a 95+ Lighthouse score.</li>
+            </ul>
+          </div>
+          <div class="job reveal">
+            <div><div class="when">Jun 2025 — Oct 2025 · Fort Worth, TX</div><div class="who">Koddi</div><div class="role">Software Engineer</div></div>
+            <ul>
+              <li>Delivered client-facing ad-platform features (React, TypeScript, GraphQL, Go) for enterprise customers including <strong>Booking.com, Kroger and Grubhub</strong>, supporting $5M+ in revenue growth.</li>
+              <li>Launched Go REST APIs and real-time pacing dashboards (Highcharts, AG Grid) that reduced customer-visible data discrepancies 45%; designed relational schemas and optimised paginated, filterable SQL.</li>
+            </ul>
+          </div>
+          <div class="job reveal">
+            <div><div class="when">Jan 2023 — May 2025 · Gainesville, FL</div><div class="who">University of Florida</div><div class="role">Software Engineer · M.S. Computer Science, Dec 2024</div></div>
+            <ul>
+              <li>Built a high-availability admin dashboard (Java, Spring Boot, React) consolidating <strong>8 workflows</strong>, cutting manual processing 38% at 99.9% uptime; optimised Jenkins and Docker CI/CD, tripling release frequency.</li>
+              <li>Earlier: B.Tech in Computer Science, Manipal University (2023). Selected for the invitation-only <strong>Y Combinator Startup School 2026</strong> cohort.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="approach" aria-labelledby="approach-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow reveal">Approach</span>
+            <h2 id="approach-title" class="h2 reveal" data-d="60">How I <em>work</em>.</h2>
+          </div>
+          <p class="lede reveal" data-d="120">The habits behind the repositories above. They are the same habits I bring to a team.</p>
+        </div>
+        <div class="principles">
+          <div class="principle reveal"><span class="n">01</span><h3>Measure, don't assert.</h3><p>Every benchmark names the machine, the command and the noise floor. If a change does not move a number, it does not ship. If it moves a number the wrong way, that is reported too.</p></div>
+          <div class="principle reveal" data-d="60"><span class="n">02</span><h3>Offline by default.</h3><p>Tests and demos run without API keys or network, against deterministic fakes, so CI is honest, fast and reproducible by anyone who clones the repo.</p></div>
+          <div class="principle reveal" data-d="120"><span class="n">03</span><h3>Read the paper, then write the code.</h3><p>Raft from Figure 2. HNSW from Malkov and Yashunin. BPE from the merge rule. Frameworks are easier to use well once you have built what they hide.</p></div>
+          <div class="principle reveal" data-d="180"><span class="n">04</span><h3>Ship the whole thing.</h3><p>A platform for 100+ researchers, a serverless engine for 10,000 accounts, an app on the App Store: discovery to rollout to documentation to handoff.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="beyond" aria-labelledby="beyond-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow reveal">Beyond the repos</span>
+            <h2 id="beyond-title" class="h2 reveal" data-d="60">Products, not only <em>primitives</em>.</h2>
+          </div>
+        </div>
+        <div class="beyond">
+          <article class="card reveal">
+            <div class="card-top"><span class="kicker">Voice AI · regulated industries</span></div>
+            <h3>Vera</h3>
+            <p>A voice-agent platform for regulated industries where agent actions are verifiable by design: a compliance finite-state machine constrains behaviour in real time, and a cryptographic audit ledger makes every action tamper-evident.</p>
+            <div class="tags"><span>agents</span><span>compliance FSM</span><span>audit ledger</span></div>
+          </article>
+          <article class="card reveal" data-d="60">
+            <div class="card-top"><span class="kicker">Consumer · live on the App Store</span></div>
+            <h3>Layman</h3>
+            <p>An AI news summariser that turns jargon into plain language. Cross-platform MVP shipped in 48 hours; production RAG backend on pgvector and Prisma, served on an AWS Bedrock and SageMaker pipeline.</p>
+            <div class="tags"><span>RAG</span><span>pgvector</span><span>AWS Bedrock</span></div>
+          </article>
+          <article class="card reveal" data-d="120">
+            <div class="card-top"><span class="kicker">macOS · open source</span><span class="lang"><i style="--c:#f05138"></i>Swift</span></div>
+            <h3><a class="stretched" href="https://github.com/rohanreddy79/AppleTune" target="_blank" rel="noopener">AppleTune</a><svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></h3>
+            <p>A menu-bar app for per-app volume, multi-device output, audio routing and a 10-band EQ. A free, open-source alternative to SoundSource.</p>
+            <div class="tags"><span>CoreAudio</span><span>SwiftUI</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow reveal">Skills</span>
+            <h2 id="skills-title" class="h2 reveal" data-d="60">The <em>stack</em>.</h2>
+          </div>
+        </div>
+        <div class="skills reveal">
+          <div class="skill-row"><div class="k">Languages</div><div class="chips"><span>Python</span><span>Go</span><span>TypeScript</span><span>JavaScript</span><span>Java</span><span>SQL</span><span>Swift</span><span>C++</span></div></div>
+          <div class="skill-row"><div class="k">AI / LLM</div><div class="chips"><span>RAG pipelines</span><span>Agents and tool use</span><span>Evaluation frameworks</span><span>Guardrails</span><span>Vector search (pgvector, HNSW)</span><span>PyTorch</span><span>OpenAI and Anthropic APIs</span><span>Model Context Protocol</span><span>AWS Bedrock and SageMaker</span><span>LangChain</span></div></div>
+          <div class="skill-row"><div class="k">Full-stack</div><div class="chips"><span>React</span><span>Next.js</span><span>React Native</span><span>Node.js</span><span>FastAPI</span><span>Flask</span><span>GraphQL</span><span>REST design</span><span>OAuth2 / JWT</span></div></div>
+          <div class="skill-row"><div class="k">Data and infra</div><div class="chips"><span>PostgreSQL</span><span>Redis</span><span>Kafka</span><span>Spark</span><span>Airflow</span><span>Snowflake</span><span>ETL pipelines</span><span>SQLite</span></div></div>
+          <div class="skill-row"><div class="k">Cloud and DevOps</div><div class="chips"><span>AWS</span><span>GCP</span><span>Docker</span><span>Kubernetes</span><span>Terraform / CloudFormation</span><span>GitHub Actions</span><span>Jenkins</span><span>Prometheus</span><span>Linux</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <span class="eyebrow reveal" style="justify-content:center">Contact</span>
+        <h2 id="contact-title" class="h2 reveal" data-d="60">Let's build something that <em>ships</em>.</h2>
+        <p class="lede reveal" data-d="120">I am interested in AI engineering and software engineering roles where the systems are real, the constraints are hard and the numbers matter. Email is the fastest way to reach me.</p>
+        <div class="contact-cta reveal" data-d="180">
+          <a class="btn btn-primary" href="mailto:jakkamrohan79@gmail.com?subject=Hello%20Rohan">Email me <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+          <a class="btn" href="https://www.linkedin.com/in/jakkam-rohan-reddy-069a2a193/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn" href="https://github.com/rohanreddy79" target="_blank" rel="noopener">GitHub</a>
+        </div>
+        <p class="email-line reveal" data-d="240"><button id="copy-email" data-email="jakkamrohan79@gmail.com" type="button">jakkamrohan79@gmail.com</button> · click to copy</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <span>© <span id="year">2026</span> Rohan Reddy Jakkam</span>
+      <span>Hand-built: HTML, CSS and 90 lines of JavaScript. No framework, no tracking.</span>
+      <a href="https://github.com/rohanreddy79/rohanreddy79.github.io" target="_blank" rel="noopener">Source ↗</a>
+    </div>
+  </footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="main.js" defer></script>
+</body>
+</html>
